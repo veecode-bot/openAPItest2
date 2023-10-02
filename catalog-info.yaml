@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: openAPItest2
+  description: "openAPItest2"
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: "openAPItest2"
+    github.com/project-slug: veecode-bot/openAPItest2
+    vault.io/secrets-path: "openAPItest2"
+    grafana/tag-selector: "openAPItest2"
+    grafana/alert-label-selector: "alertname=openAPItest2"
+    argocd/proxy-url: '/argocd/api'
+    argocd/app-name: "openAPItest2"
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: "group:default/admin"
+
+
+

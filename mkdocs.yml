@@ -1,0 +1,8 @@
+site_name: "openAPItest2"
+site_description: "openAPItest2"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
